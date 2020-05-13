@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>step01_datatype.html</title>
+</head>
+<body>
+    <h1>데이터 type 테스트 중.....</h1>
+    <script>
+        //1. number type
+        //산술연산이 가능하다.
+        var num1 = 10; //int 정수
+        var num2 = 10.1; //float (실수)
+
+        //2. string type
+        //문자열을 다룰 때 사용하는 데이터 type
+        var myName = "조민석";  //double quotation
+        var yourName = '해골';  //single quotation 
+
+        //3. boolean type
+        //참,거짓을 나타내는 데이터 type
+        var isRun = true;
+        var isWait = false;
+        var isGreater = 10 > 1; //비교연산의 결과로 만들어지기도 한다.
+
+        //4.plain object type
+        //여러개의 데이터를 key 값으로 관리하고자 할 때 사용한다. (순서가 중요치 않을 때 사용)
+        var mem = {num : 1, name : "김구라", addr : "노량진"};
+        
+        //5. array type
+        //여러개의 데이터를 index 값으로 관리하고자 할 대 사용한다. (순서가 중요할 때 사용)
+        var nums = [10,20,30];
+        var names = ["김구라","해골","원숭이"];
+
+        //6.function type
+        var f1 = function(){
+            console.log("하나");
+            console.log("두울");
+            console.log("세엣");
+        }
+    </script>
+</body>
+</html>
